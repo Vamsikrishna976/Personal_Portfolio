@@ -1,118 +1,84 @@
-# 🚀 Personal Portfolio - Vamsi Krishna Paluru
+# 🚀 Personal Portfolio — Vamsi Krishna Paluru
 
-A fully responsive personal portfolio website showcasing web development skills, projects, and blog articles. Built with modern HTML, CSS, and JavaScript with an enhanced contact form system.
+A responsive personal portfolio website built with pure HTML, CSS, and JavaScript. The site highlights professional skills, client testimonials, project work, blog content, and a contact form powered by FormSubmit.co.
 
 ## 📋 Table of Contents
+- [Project Overview](#project-overview)
 - [Features](#features)
-- [Demo](#demo)
 - [Built With](#built-with)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Contact Form](#contact-form)
-- [Blog Section](#blog-section)
 - [Contact](#contact)
 - [License](#license)
 
+## 📌 Project Overview
+This project is a vCard-style portfolio website for a frontend developer based in Bengaluru, India. It includes:
+- a responsive sidebar with personal details and contact links
+- tabbed navigation for About, Resume, Portfolio, Blog, and Contact sections
+- portfolio filtering and blog previews
+- a contact form with validation and submission feedback
+- an embedded Google Map section
+
 ## ✨ Features
-
-### Core Features
-- ✅ **Fully Responsive** - Works seamlessly on desktop, tablet, and mobile devices
-- ✅ **Multi-Section Layout** - About, Resume, Portfolio, Blog, and Contact sections
-- ✅ **Project Portfolio** - Showcase of web development and design projects with filtering
-- ✅ **Testimonials** - Display client feedback with interactive modal
-
-### Enhanced Contact Form ⭐
-- 📧 **Email Notifications** - Messages sent directly to your email via FormSubmit.co
-- ✨ **Required Fields** - Name, email, and message (validated in real-time)
-- 📱 **Optional Fields** - Phone number and subject for better organization
-- 💬 **Real-time Feedback** - Success/error messages with visual indicators
-- ⏱️ **Auto-dismiss** - Messages automatically close after 5 seconds
-- ♻️ **Form Reset** - Automatic clearing after successful submission
-- ⌛ **Loading State** - Animated loading indicator during submission
-
-### Blog Section
-- 🔗 **Clickable Blog Items** - Links to related content/resources
-- 📰 **Blog Categories** - Organized by topic (Future, Developer, Development)
-- 📅 **Date Metadata** - Display dates for each blog post
-
-## 📸 Demo
-
-![Portfolio Desktop](./website-demo-image/desktop.png "Desktop Demo")
-![Portfolio Mobile](./website-demo-image/mobile.png "Mobile Demo")
+- ✅ **Responsive layout** for desktop, tablet, and mobile
+- ✅ **Sidebar toggle** for compact navigation on smaller screens
+- ✅ **Tabbed page navigation** with content switching
+- ✅ **Portfolio filters** by category using buttons and a custom select dropdown
+- ✅ **Testimonials modal** with client quotes and avatars
+- ✅ **Interactive contact form** with live validation and loading state
+- ✅ **Google Maps embed** for location display
+- ✅ **Blog cards** linking to external resources
 
 ## 🛠️ Built With
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Google Fonts (`Poppins`)
+- Ionicons icon library
+- FormSubmit.co for contact form delivery
 
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with gradients and animations
-- **JavaScript (ES6)** - Interactive features and form handling
-- **FormSubmit.co** - Email submission backend
-- **Ionicons** - Icon library for UI elements
-
-## 📥 Installation
-
-### Prerequisites
-- [Git](https://git-scm.com/downloads) installed on your system
-- A modern web browser
-
-### Clone the Repository
-
-**Linux/macOS:**
+## 🚀 Installation
+### Clone the repository
 ```bash
 git clone https://github.com/vamsikrishna976/Personal_Portfolio.git
 cd Personal_Portfolio/Portfolio
 ```
 
-**Windows:**
+### Run locally
+Open `Portfolio/index.html` directly in your browser, or start a local server from the `Portfolio` directory:
 ```bash
-git clone https://github.com/vamsikrishna976/Personal_Portfolio.git
-cd Personal_Portfolio\Portfolio
-```
-
-### Run Locally
-
-1. Open `index.html` in your web browser
-2. Or use a local server:
-```bash
-# Using Python 3
+cd Portfolio
 python -m http.server 8000
-
-# Using Python 2
-python -m SimpleHTTPServer 8000
+```
+Then open:
+```text
+http://localhost:8000
 ```
 
-Then visit: `http://localhost:8000`
+## 🧭 Usage
+- Navigate sections from the top menu: About, Resume, Portfolio, Blog, Contact
+- Use the portfolio category buttons or mobile select to filter project cards
+- Click a testimonial to open a modal with the full review
+- Submit the contact form to send a message via FormSubmit.co
 
 ## 📧 Contact Form
+The contact form submits to FormSubmit.co at:
+`paluruvamsikrishna16@gmail.com`
 
-The contact form uses **FormSubmit.co** for email delivery:
-
-1. Fill in your name, email, and message (required)
-2. Optionally add phone number and subject
-3. Click "Send Message"
-4. You'll receive an email with the submission
-5. Form resets automatically
-
-**Email Endpoint:** `paluruvamsikrishna16@gmail.com`
-
-## 📝 Blog Section
-
-Blog items link to relevant resources:
-- "The Future of Web Development" → WebAssembly, serverless architecture insights
-- "Mastering Web Development" → Advanced TypeScript patterns and best practices
-- "My Journey into Full Stack Development" → Personal learning path and projects
-- "Web Developer Intern" → Internship experiences and skills gained
+Form behavior includes:
+- required full name, email, and message fields
+- optional phone number and subject fields
+- live validation enabling/disabling the send button
+- success/error feedback messages
+- auto-hide notification after 5 seconds
 
 ## 👤 Contact
-
 **Vamsi Krishna Paluru**
-- 📧 Email: [paluruvamsikrishna16@gmail.com](mailto:paluruvamsikrishna16@gmail.com)
-- 📱 Phone: +91 9985936366
-- 📍 Location: SilkBoard, Bengaluru, Karnataka, India
+- 📧 [paluruvamsikrishna16@gmail.com](mailto:paluruvamsikrishna16@gmail.com)
+- 📱 +91 9985936366
+- 📍 SilkBoard, Bengaluru, Karnataka, India
 - 🔗 GitHub: [@vamsikrishna976](https://github.com/vamsikrishna976)
 
 ## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
----
-
-**Last Updated:** March 2026 | **Version:** 2.0 (Enhanced Contact Form)
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
