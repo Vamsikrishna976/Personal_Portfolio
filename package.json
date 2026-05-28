@@ -1,0 +1,31 @@
+{
+  "name": "persional_portfolio",
+  "version": "1.0.0",
+  "description": "vamsi portfolio",
+  "scripts": {
+    "start": "parcel Portfolio/index.html",
+    "build": "parcel build Portfolio/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsikrishna976/Personal_Portfolio.git"
+  },
+  "keywords": [
+    "vamsi's",
+    "portfolio"
+  ],
+  "author": "Vamsi krishna Paluru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamsikrishna976/Personal_Portfolio/issues"
+  },
+  "homepage": "https://github.com/vamsikrishna976/Personal_Portfolio#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}
